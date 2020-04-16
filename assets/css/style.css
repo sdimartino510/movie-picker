@@ -1,2 +1,12 @@
 /* font-family: 'Bangers', cursive;
 font-family: 'Montserrat', sans-serif; */
+body {
+    background-color: #cfcfcf;
+}
+.jumbotron {
+    margin-top: 15px;
+    background-color: slategray;
+    font-family: 'Bangers', cursive;
+    padding-top: 30px;
+    padding-bottom: 22px;
+}
