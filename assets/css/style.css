@@ -1,12 +1,17 @@
-/* font-family: 'Bangers', cursive;
-font-family: 'Montserrat', sans-serif; */
 body {
-    background-color: #cfcfcf;
+  background-image: url("../images/cinema-4609877_1920.jpg");
+  background-color: #000000;
+  /* background-position: center; */
+  background-size: auto;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+  font-family: "Montserrat", sans-serif;
 }
 .jumbotron {
-    margin-top: 15px;
-    background-color: slategray;
-    font-family: 'Bangers', cursive;
-    padding-top: 30px;
-    padding-bottom: 22px;
+  margin-top: 15px;
+  background-color: slategray;
+  font-family: "Bangers", cursive;
+  padding-top: 30px;
+  padding-bottom: 22px;
 }
