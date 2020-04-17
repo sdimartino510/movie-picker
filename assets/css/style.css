@@ -7,11 +7,22 @@ body {
   /* background-size: cover; */
   position: relative;
   font-family: "Montserrat", sans-serif;
+  color: #ffffff;
 }
 .jumbotron {
   margin-top: 15px;
-  background-color: slategray;
+  background-color: #4431ce;
   font-family: "Bangers", cursive;
+  letter-spacing: 8px;
   padding-top: 30px;
   padding-bottom: 22px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+.border {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+.form-group {
+  padding: 10px 25px 0px 25px;
 }
