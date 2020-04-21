@@ -43,27 +43,37 @@
         <div class="form-group">
           <label for="inputGenre">Select Movie Genre</label>
             <select class="form-control inputGenre">
-              <option>Action</option>
-              <option>Comedy</option>
-              <option>Crime</option>
-              <option>Drama</option>
-              <option>Fantasy</option>
-              <option>Film Noir</option>
-              <option>Horror</option>
-              <option>Musical</option>
-              <option>Mystery</option>
-              <option>Romance</option>
-              <option>Romantic Comedy</option>
-              <option>Science Fiction</option>
-              <option>Thriller</option>
-              <option>War</option>
-              <option>Western</option>
+              <option value="default">Any Genre</option>
+              <option value="action">Action</option>
+              <option value="comedy">Comedy</option>
+              <option value="crime">Crime</option>
+              <option value="drama">Drama</option>
+              <option value="fantasy">Fantasy</option>
+              <option value="filmNoir">Film Noir</option>
+              <option value="horror">Horror</option>
+              <option value="musical">Musical</option>
+              <option value="mystery">Mystery</option>
+              <option value="romance">Romance</option>
+              <option value="romanticComedy">Romantic Comedy</option>
+              <option value="scienceFiction">Science Fiction</option>
+              <option value="thriller">Thriller</option>
+              <option value="war">War</option>
+              <option value="western">Western</option>
             </select>
-          <label for="inputYear">Select Release Year Range</label>
-            <select class="form-control inputYear">
-              <option>No preference</option>
-              <option>Silent Film Era: 1900-1929</option>
-              <option>Golden Age: 1930-1959</option>
+          <label class="inputYear" for="inputYear">Select Release Year Range</label>
+            <select class="form-control">
+              <option value="default">No preference</option>
+              <option value="silentFilm">Silent Film Era: 1900-1929</option>
+              <option value="goldenAge">Golden Age: 1930-1959</option>
+            </select>
+          <label class="inputRating" for="inputRating">Select Rating</label>
+            <select class="form-control">
+              <option value="default">Any Rating</option>
+              <option value="g">G: General Audiences</option>
+              <option value="pg">PG: Parental Guidance Suggested</option>
+              <option value="pg13">PG-13: Parents Strongly Cautioned</option>
+              <option value="r">R: Restricted</option>
+              <option value="nc17">NC-17: Adults Only</option>
             </select>
         </div>
         <div class="form-group">
