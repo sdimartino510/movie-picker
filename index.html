@@ -34,14 +34,17 @@
       </p>
     <![endif]-->
     <div class="container">
-      <div class="jumbotron">
-        <h1 class="display-4 text-center">
-          Quarantine Movie Picker
-        </h1>
-      </div>
-      <form class="border">
-        <div class="form-group">
-          <label for="inputGenre">Select Movie Genre</label>
+      <header>
+        <div class="jumbotron">
+          <h1 class="display-4 text-center">
+            Quarantine Movie Picker
+          </h1>
+        </div>
+      </header>
+      <main>
+        <form class="border">
+          <div class="form-group">
+            <label for="inputGenre">Select Movie Genre</label>
             <select class="form-control inputGenre">
               <option value="default">Any Genre</option>
               <option value="action">Action</option>
@@ -60,13 +63,17 @@
               <option value="war">War</option>
               <option value="western">Western</option>
             </select>
-          <label class="inputYear" for="inputYear">Select Release Year Range</label>
+            <label class="inputYear" for="inputYear"
+              >Select Release Year Range</label
+            >
             <select class="form-control">
-              <option value="default">No preference</option>
+              <option value="default">Any Year Range</option>
               <option value="silentFilm">Silent Film Era: 1900-1929</option>
               <option value="goldenAge">Golden Age: 1930-1959</option>
+              <option value="hollywood">Hollywood Era: 1960-1999</option>
+              <option value="modernEra">Modern Era: 2000-Present</option>
             </select>
-          <label class="inputRating" for="inputRating">Select Rating</label>
+            <label class="inputRating" for="inputRating">Select Rating</label>
             <select class="form-control">
               <option value="default">Any Rating</option>
               <option value="g">G: General Audiences</option>
@@ -75,23 +82,18 @@
               <option value="r">R: Restricted</option>
               <option value="nc17">NC-17: Adults Only</option>
             </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-          />
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" for="exampleCheck1"
-            >Check me out</label
-          >
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+            <label class="inputCast" for="inputCast">Cast</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCast"
+              placeholder="Enter actor(s) to search"
+            />
+            <br />
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </main>
     </div>
 
     <script
