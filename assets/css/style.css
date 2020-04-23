@@ -23,9 +23,13 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
 }
-.form-group {
+.form-group, .instructions {
   padding: 10px 25px 0px 25px;
 }
-.inputYear, .inputRating, .inputCast {
+.inputYear, .inputRating, .inputCast, .instructions {
   padding-top: 25px !important;
+}
+hr {
+  background-color: #ffffff;
+  margin-top: 25px;
 }
