@@ -48,7 +48,7 @@
           </p>
           <hr>
           <div class="form-group">
-            <label for="inputGenre">Select Movie Genre</label>
+            <label id="inputGenre" for="inputGenre">Select Movie Genre</label>
             <select class="form-control inputGenre">
               <option value="default">Any Genre</option>
               <option value="action">Action</option>
@@ -67,18 +67,18 @@
               <option value="war">War</option>
               <option value="western">Western</option>
             </select>
-            <label class="inputYear" for="inputYear"
+            <label id="inputYear" for="inputYear"
               >Select Release Year Range</label
             >
-            <select class="form-control">
+            <select class="form-control inputYear">
               <option value="default">Any Year Range</option>
               <option value="silentFilm">Silent Film Era: 1900-1929</option>
               <option value="goldenAge">Golden Age: 1930-1959</option>
               <option value="hollywood">Hollywood Era: 1960-1999</option>
               <option value="modernEra">Modern Era: 2000-Present</option>
             </select>
-            <label class="inputRating" for="inputRating">Select Rating</label>
-            <select class="form-control">
+            <label id="inputRating" for="inputRating">Select Rating</label>
+            <select class="form-control inputRating">
               <option value="default">Any Rating</option>
               <option value="g">G: General Audiences</option>
               <option value="pg">PG: Parental Guidance Suggested</option>
@@ -86,10 +86,10 @@
               <option value="r">R: Restricted</option>
               <option value="nc17">NC-17: Adults Only</option>
             </select>
-            <label class="inputCast" for="inputCast">Cast</label>
+            <label id="inputCast" for="inputCast">Cast</label>
             <input
               type="text"
-              class="form-control"
+              class="form-control inputCast"
               id="inputCast"
               placeholder="Enter actor(s) to search"
             />
