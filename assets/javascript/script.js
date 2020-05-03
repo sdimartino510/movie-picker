@@ -3,8 +3,8 @@ $(document).ready(function () {
   const inputYear = $(".inputYear");
   const inputRating = $(".inputRating");
   const inputCast = $(".inputCast");
-  const inputForm = $(".inputForm");
-  const resultsBox = $(".resultsBox");
+  const $inputForm = $(".inputForm");
+  const $resultsBox = $(".resultsBox");
 
   $("button").on("click", function () {
     event.preventDefault();
@@ -19,7 +19,7 @@ $(document).ready(function () {
     console.log(rating);
     console.log(cast);
 
-    inputForm.css("display", "none");
-    resultsBox.css("display", "block");
+    $inputForm.css("display", "none");
+    $resultsBox.css("display", "block");
   });
 });
