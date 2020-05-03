@@ -42,61 +42,65 @@
         </div>
       </header>
       <main>
-        <form class="border">
-          <p class="instructions">
-            Get suggestions for a movie to watch by using any combination of genre, release year, rating, or cast members (all fields optional):
-          </p>
-          <hr>
-          <div class="form-group">
-            <label id="inputGenre" for="inputGenre">Select Movie Genre</label>
-            <select class="form-control inputGenre">
-              <option value="default">Any Genre</option>
-              <option value="action">Action</option>
-              <option value="comedy">Comedy</option>
-              <option value="crime">Crime</option>
-              <option value="drama">Drama</option>
-              <option value="fantasy">Fantasy</option>
-              <option value="filmNoir">Film Noir</option>
-              <option value="horror">Horror</option>
-              <option value="musical">Musical</option>
-              <option value="mystery">Mystery</option>
-              <option value="romance">Romance</option>
-              <option value="romanticComedy">Romantic Comedy</option>
-              <option value="scienceFiction">Science Fiction</option>
-              <option value="thriller">Thriller</option>
-              <option value="war">War</option>
-              <option value="western">Western</option>
-            </select>
-            <label id="inputYear" for="inputYear"
-              >Select Release Year Range</label
-            >
-            <select class="form-control inputYear">
-              <option value="default">Any Year Range</option>
-              <option value="silentFilm">Silent Film Era: 1900-1929</option>
-              <option value="goldenAge">Golden Age: 1930-1959</option>
-              <option value="hollywood">Hollywood Era: 1960-1999</option>
-              <option value="modernEra">Modern Era: 2000-Present</option>
-            </select>
-            <label id="inputRating" for="inputRating">Select Rating</label>
-            <select class="form-control inputRating">
-              <option value="default">Any Rating</option>
-              <option value="g">G: General Audiences</option>
-              <option value="pg">PG: Parental Guidance Suggested</option>
-              <option value="pg13">PG-13: Parents Strongly Cautioned</option>
-              <option value="r">R: Restricted</option>
-              <option value="nc17">NC-17: Adults Only</option>
-            </select>
-            <label id="inputCast" for="inputCast">Cast</label>
-            <input
-              type="text"
-              class="form-control inputCast"
-              id="inputCast"
-              placeholder="Enter actor(s) to search"
-            />
-            <br />
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-        </form>
+        <div class="input-form">
+          <form class="border">
+            <p class="instructions">
+              Get suggestions for a movie to watch by using any combination of
+              genre, release year, rating, or cast members (all fields
+              optional):
+            </p>
+            <hr />
+            <div class="form-group">
+              <label id="inputGenre" for="inputGenre">Select Movie Genre</label>
+              <select class="form-control inputGenre">
+                <option value="default">Any Genre</option>
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="crime">Crime</option>
+                <option value="drama">Drama</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="filmNoir">Film Noir</option>
+                <option value="horror">Horror</option>
+                <option value="musical">Musical</option>
+                <option value="mystery">Mystery</option>
+                <option value="romance">Romance</option>
+                <option value="romanticComedy">Romantic Comedy</option>
+                <option value="scienceFiction">Science Fiction</option>
+                <option value="thriller">Thriller</option>
+                <option value="war">War</option>
+                <option value="western">Western</option>
+              </select>
+              <label id="inputYear" for="inputYear"
+                >Select Release Year Range</label
+              >
+              <select class="form-control inputYear">
+                <option value="default">Any Year Range</option>
+                <option value="silentFilm">Silent Film Era: 1900-1929</option>
+                <option value="goldenAge">Golden Age: 1930-1959</option>
+                <option value="hollywood">Hollywood Era: 1960-1999</option>
+                <option value="modernEra">Modern Era: 2000-Present</option>
+              </select>
+              <label id="inputRating" for="inputRating">Select Rating</label>
+              <select class="form-control inputRating">
+                <option value="default">Any Rating</option>
+                <option value="g">G: General Audiences</option>
+                <option value="pg">PG: Parental Guidance Suggested</option>
+                <option value="pg13">PG-13: Parents Strongly Cautioned</option>
+                <option value="r">R: Restricted</option>
+                <option value="nc17">NC-17: Adults Only</option>
+              </select>
+              <label id="inputCast" for="inputCast">Cast</label>
+              <input
+                type="text"
+                class="form-control inputCast"
+                id="inputCast"
+                placeholder="Enter actor(s) to search"
+              />
+              <br />
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
       </main>
     </div>
 

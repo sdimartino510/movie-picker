@@ -26,8 +26,11 @@ body {
 .form-group, .instructions {
   padding: 10px 25px 0px 25px;
 }
+.instructions {
+  margin-top: 13px;
+}
 #inputYear, #inputRating, #inputCast, #instructions {
-  padding-top: 25px !important;
+  padding-top: 25px;
 }
 hr {
   background-color: #ffffff;
