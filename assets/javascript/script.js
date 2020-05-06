@@ -21,5 +21,14 @@ $(document).ready(function () {
 
     $inputForm.css("display", "none");
     $resultsBox.css("display", "block");
+
+    const url = "http://www.omdbapi.com/?apikey=7978fb46&t='titanic'"
+
+    $.ajax({
+        url,
+        method: "GET"
+    }).then(function(response) {
+        console.log(response);
+    });
   });
 });
