@@ -22,7 +22,7 @@ $(document).ready(function () {
     $inputForm.css("display", "none");
     $resultsBox.css("display", "block");
 
-    const url = "https://api.themoviedb.org/3/search/movie?api_key=0de9c836fc37aeab2f416c1622515802&query=Jack+Reacher"
+    const url = `https://api.themoviedb.org/3/search/movie?api_key=0de9c836fc37aeab2f416c1622515802&query=Jack+Reacher`
 
     $.ajax({
         url,
